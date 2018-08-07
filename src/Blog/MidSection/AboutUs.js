@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import './Header.css';
-import About from './about.jpeg';
+// import './Header.css';
+import About from './about.jpg';
 
 const aboutus = () => {
   return (

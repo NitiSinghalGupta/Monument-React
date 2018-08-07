@@ -14,7 +14,7 @@ class App extends Component {
 {/* components for Blog.html page          */}
          <Blog />
 {/* components for Index.html page */}
-         <index />
+         {/* <index /> */}
 {/* repeated components   */}
          <Footer />
       </div>

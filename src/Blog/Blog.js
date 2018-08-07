@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Header from './Header';
-import Article from './Article';
+import Article from './MidSection/Article';
 
 const blog = () => {
   return (

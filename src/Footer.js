@@ -1,14 +1,15 @@
 import React, { Component } from 'react';
-import {SocialIcons} from 'react-social-icons';
+import {SocialIcon} from 'react-social-icons';
+import './Footer.css';
 
-const footer = () => {
+const footerComponent = () => {
   return (
 	<footer>
 		<div className="wrap">
 			<div className="social-links">
-				<SocialIcons className="facebook" url="http://facebook.com" />
-				<SocialIcons className="instagram" url='http://instagram.com' />
-				<SocialIcons className="twitter" url='http://twitter.com' />
+				<SocialIcon className="facebook" url="http://facebook.com" />
+				<SocialIcon className="instagram" url='http://instagram.com' />
+				<SocialIcon className="twitter" url='http://twitter.com' />
 			</div>
 			<input type="text" placeholder="Email Address" />
 			<button type="submit">Keep in Touch</button>
@@ -19,4 +20,4 @@ const footer = () => {
   )
 }
 
-export default footer;
+export default footerComponent;
