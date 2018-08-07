@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
-import './Navbar.css';
+import {SocialIcons} './SocialIcons';
 
 const footer = () => {
   return (
 	<footer>
 		<div class="wrap">
 			<div class="social-links">
-				<a href=""><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+				<SocialIcons class="facebook" url='http://www.facebook.com' />
 				<a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
 				<a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
 			</div>
