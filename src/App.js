@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import './App.css';
 import Navbar from './Navbar';
 import Footer from './Footer';
-import Blog from './Blog';
+import Blog from './Blog/Blog';
+import Index from './Index/Index';
 
 class App extends Component {
   render() {
@@ -13,7 +14,7 @@ class App extends Component {
 {/* components for Blog.html page          */}
          <Blog />
 {/* components for Index.html page */}
-
+         <index />
 {/* repeated components   */}
          <Footer />
       </div>
