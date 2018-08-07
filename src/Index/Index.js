@@ -6,15 +6,15 @@ import Gallery from './Gallery';
 import Contact from './Contact';
 
 const index = () => {
-  return (
-	<div>
-      <Header />
-      <Archive />
-      <AboutUs />
-      <Gallery />
-      <Contact />
-    </div>
-  )
+    return (
+        <div>
+            <Header />
+            <Archive />
+            <AboutUs />
+            <Gallery />
+            <Contact />
+        </div>
+    )
 }
 
 export default index;

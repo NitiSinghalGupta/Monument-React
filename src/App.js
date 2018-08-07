@@ -12,9 +12,9 @@ class App extends Component {
 {/* repeated components       */}
          <Navbar />
 {/* components for Blog.html page          */}
-         <Blog />
+         {/* <Blog /> */}
 {/* components for Index.html page */}
-         {/* <index /> */}
+         <index />
 {/* repeated components   */}
          <Footer />
       </div>
