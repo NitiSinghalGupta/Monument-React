@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import AboutUs from './AboutUs';
 import blog_1 from './blog_1.jpg';
 import blog_2 from './blog_2.jpg';
-import './MidSection.css'
+import './Article.css';
 
 const article = () => {
   return (
